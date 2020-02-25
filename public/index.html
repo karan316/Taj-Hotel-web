@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Taj Hotels</title>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/png" href="../img/tajlogo.png" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <link
+            href="https://fonts.googleapis.com/css?family=Sansita"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <!---Navigation Bar---------------->
+        <section id="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"
+                    ><img src="../img/tajlogo.png" alt="taj"
+                /></a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html"
+                                >OUR HOTELS</a
+                            >
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="">TAJ HOLIDAYS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="https://www.facebook.com/TajHotels/"
+                                >CONTACT US</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <!-------Slider-------->
+        <div id="slider">
+            <div id="headerSlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li
+                        data-target="#headerSlider"
+                        data-slide-to="0"
+                        class="active"
+                    ></li>
+                    <li data-target="#headerSlider" data-slide-to="1"></li>
+                    <li data-target="#headerSlider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            src="../img/tajpalacefront.jpg"
+                            alt="taj"
+                            class="d-block img-fluid imgs "
+                        />
+                        <div class="carousel-caption">
+                            <h5>Taj Hotel, Mumbai</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="../img/goi.jpg"
+                            alt="taj"
+                            class="d-block img-fluid"
+                        />
+                        <div class="carousel-caption">
+                            <h5>View Of Gateway Of India</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="../img/tajinterior.jpg"
+                            alt="taj"
+                            class="d-block img-fluid"
+                        />
+                        <div class="carousel-caption">
+                            <h5>Beauty From Inside</h5>
+                        </div>
+                    </div>
+                </div>
+                <a
+                    class="carousel-control-prev"
+                    href="#headerSlider"
+                    role="button"
+                    data-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a
+                    class="carousel-control-next"
+                    href="#headerSlider"
+                    role="button"
+                    data-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>About Us</h2>
+                        <div class="about-content">
+                            The hallmark of Indian hospitality, Taj personifies
+                            tradition and warmth. With hotels ranging across
+                            iconic locations, living palaces, exotic resorts and
+                            scenic safaris, Taj delivers unmatched experiences
+                            and lasting memories for guests around the world.
+                            With a service culture that has been nourished over
+                            115 years and practised across 50 global
+                            destinations, Taj is all about the heart behind the
+                            process
+                        </div>
+                        <a href="#slider" style="text-decoration: none"
+                            ><button
+                                type="button"
+                                class="btn btn-primary"
+                                id="readmore"
+                            >
+                                Experiences You Await
+                            </button></a
+                        >
+                    </div>
+                    <div class="col-md-6">
+                        <iframe
+                            width="520"
+                            height="370"
+                            style=" margin-left: 90px"
+                            src="https://www.youtube.com/embed/py-m2fI4d6M"
+                        >
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-----------Taj Holidays---------->
+        <section id="services">
+            <div class="container">
+                <h1>Taj Experience</h1>
+                <div class="row services">
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <img
+                                id="butter-chicken"
+                                alt="taj"
+                                style=" margin-right: 200px"
+                                src="../img/butter-chicken.jpg"
+                            />
+                        </div>
+                        <h3 id="head1">Best Of Cuisines!</h3>
+                        <p id="txt1">
+                            Great food cooked by the best chefs of the country.
+                            Prepared with utmost goodness and care. Taste which
+                            you can't resist!
+                        </p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <img
+                                id="hospital"
+                                src="../img/hospital.jpg"
+                                alt="taj"
+                            />
+                        </div>
+
+                        <h3 id="head2">Great Hospitality</h3>
+                        <p id="txt2">
+                            At Taj, our customers are treated with the best of
+                            the services our customers have always checked-out
+                            with great satisfaction.
+                        </p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <img
+                                id="conv"
+                                src="../img/marine-drive.jpg"
+                                alt="taj"
+                            />
+                        </div>
+
+                        <h3 id="head3">Well Connected</h3>
+                        <p id="txt3">
+                            Taj Hotels are located in prime locations of the
+                            metro cities which makes travelling hassle free for
+                            our customers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

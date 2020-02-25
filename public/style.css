@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*-----------Navigation------------*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img {
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+    text-decoration: none;
+}
+.navbar-nav {
+    display: inline-block;
+}
+#nav-bar ul li a:hover {
+    color: #8c714a !important;
+}
+.navbar {
+    background: #fff;
+}
+.navbar-toggler {
+    border: none !important;
+}
+.nav-link {
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*---------Slider-----------*/
+#slider {
+    width: 100%;
+    background-size: cover;
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+
+.carousel-caption h5 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: 'Sansita', sans-serif;
+    opacity: 0.9;
+    margin-top: 720px !important ;
+    margin-left: -850px !important ;
+    letter-spacing: 4px;
+}
+.img-fluid {
+    width: 100%;
+}
+/*-------------About---------*/
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content {
+    padding-top: 20px;
+}
+#readmore {
+    background-color: black;
+    border-color: black;
+}
+
+#readmore a {
+    color: white;
+}
+#readmore :hover {
+    opacity: 0.5;
+    transition: 0.3s ease-in;
+    color: white;
+}
+/*------------Taj Holidays---------*/
+#services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(img\marine-drive.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: blue;
+}
+#services h1 {
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
+#services h1::after {
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 250px;
+    margin: 20px auto 5px;
+}
+
+.icon {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+}
+.icon img {
+    width: 330px;
+    height: 280px;
+    filter: grayscale(100%);
+    transition: 1s;
+    border-radius: 6px;
+}
+
+.icon img:hover {
+    filter: grayscale(0);
+    transform: scale(1.2);
+    cursor: pointer;
+    border-radius: none;
+}
+.icon p {
+    margin-right: 10px;
+}
+#butter-chicken {
+    margin-left: -110px;
+}
+
+#txt1 {
+    margin-left: -100px;
+}
+#head1 {
+    margin-left: -100px;
+}
+#txt2 {
+    margin-left: 140px;
+    width: 250px;
+}
+#head2 {
+    margin-left: 135px;
+    width: 270px;
+}
+#hospital {
+    margin-left: 80px;
+}
+
+#conv {
+    margin-right: -537px;
+}
+#head3 {
+    margin-right: -685px;
+}
+#txt3 {
+    width: 268px;
+    margin-left: 337px;
+}
